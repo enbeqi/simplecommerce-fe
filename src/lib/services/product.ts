@@ -1,3 +1,4 @@
+import { ProductListingSearchParams } from "@/app/page";
 import { APIResponse, ErrorResponseCode } from "@/lib/types/apiResponse";
 import { ProductData } from "@/lib/types/product";
 
@@ -19,8 +20,11 @@ export const getProductById = async (
   }
 };
 
-export const getProductList = async (category?: string, sort?: string) => {
+export const getProductList = async (
+  searchParams?: ProductListingSearchParams
+) => {
   try {
+    const { category = "", sort = "" } = searchParams || {};
     const apiPath = `${process.env.BASE_URL}/api/products?category=${category}&sort=${sort}`;
     const response = await fetch(apiPath);
     const result: APIResponse<ProductData[] | []> = await response.json();
