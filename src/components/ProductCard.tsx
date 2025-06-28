@@ -22,7 +22,7 @@ export function ProductCard({ data }: { data: ProductData }) {
           src={imageUrl}
           alt={name}
           fill
-          sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
         />
       </div>
       <h2 className="truncate">{name}</h2>
