@@ -11,6 +11,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
     productSku: "BEA-SKU-001",
+    stock: 100,
   },
   {
     id: "2",
@@ -22,6 +23,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
     productSku: "BEA-SKU-002",
+    stock: 25,
   },
   {
     id: "3",
@@ -33,6 +35,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
     productSku: "BEA-SKU-003",
+    stock: 30,
   },
   {
     id: "4",
@@ -44,6 +47,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
     productSku: "BEA-SKU-004",
+    stock: 9,
   },
   {
     id: "5",
@@ -55,6 +59,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
     productSku: "BEA-SKU-005",
+    stock: 15,
   },
   {
     id: "6",
@@ -66,6 +71,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
     productSku: "FRA-SKU-006",
+    stock: 4,
   },
   {
     id: "7",
@@ -77,6 +83,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
     productSku: "FRA-SKU-007",
+    stock: 18,
   },
   {
     id: "8",
@@ -88,6 +95,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
     productSku: "FRA-SKU-008",
+    stock: 7,
   },
   {
     id: "9",
@@ -99,6 +107,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
     productSku: "FRA-SKU-009",
+    stock: 14,
   },
   {
     id: "10",
@@ -110,6 +119,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
     productSku: "FRA-SKU-010",
+    stock: 18,
   },
   {
     id: "11",
@@ -121,6 +131,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
     productSku: "FUR-SKU-011",
+    stock: 3,
   },
   {
     id: "12",
@@ -132,6 +143,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
     productSku: "FUR-SKU-012",
+    stock: 3,
   },
   {
     id: "13",
@@ -143,6 +155,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
     productSku: "FUR-SKU-013",
+    stock: 5,
   },
   {
     id: "14",
@@ -154,6 +167,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
     productSku: "FUR-SKU-014",
+    stock: 11,
   },
   {
     id: "15",
@@ -165,6 +179,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
     productSku: "FUR-SKU-015",
+    stock: 19,
   },
   {
     id: "16",
@@ -175,6 +190,7 @@ export const products: ProductData[] = [
       "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
     imageUrl: "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp",
     productSku: "GRO-SKU-016",
+    stock: 78,
   },
   {
     id: "17",
@@ -186,6 +202,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp",
     productSku: "GRO-SKU-017",
+    stock: 34,
   },
   {
     id: "18",
@@ -197,6 +214,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp",
     productSku: "GRO-SKU-018",
+    stock: 63,
   },
   {
     id: "19",
@@ -208,6 +226,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
     productSku: "GRO-SKU-019",
+    stock: 25,
   },
   {
     id: "20",
@@ -219,6 +238,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp",
     productSku: "GRO-SKU-020",
+    stock: 43,
   },
   {
     id: "21",
@@ -230,6 +250,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp",
     productSku: "GRO-SKU-021",
+    stock: 52,
   },
   {
     id: "22",
@@ -241,6 +262,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp",
     productSku: "GRO-SKU-022",
+    stock: 39,
   },
   {
     id: "23",
@@ -251,6 +273,7 @@ export const products: ProductData[] = [
       "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
     imageUrl: "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp",
     productSku: "GRO-SKU-023",
+    stock: 138,
   },
   {
     id: "24",
@@ -262,6 +285,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp",
     productSku: "GRO-SKU-024",
+    stock: 21,
   },
   {
     id: "25",
@@ -273,6 +297,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp",
     productSku: "GRO-SKU-025",
+    stock: 122,
   },
   {
     id: "26",
@@ -284,6 +309,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp",
     productSku: "GRO-SKU-026",
+    stock: 124,
   },
   {
     id: "27",
@@ -295,6 +321,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp",
     productSku: "GRO-SKU-027",
+    stock: 22,
   },
   {
     id: "28",
@@ -306,6 +333,7 @@ export const products: ProductData[] = [
     imageUrl:
       "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
     productSku: "GRO-SKU-028",
+    stock: 57,
   },
   {
     id: "29",
@@ -316,6 +344,7 @@ export const products: ProductData[] = [
       "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
     imageUrl: "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp",
     productSku: "GRO-SKU-029",
+    stock: 39,
   },
   {
     id: "30",
@@ -326,5 +355,6 @@ export const products: ProductData[] = [
       "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
     imageUrl: "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp",
     productSku: "GRO-SKU-030",
+    stock: 78,
   },
 ];

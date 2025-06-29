@@ -6,4 +6,5 @@ export type ProductData = {
   description: string;
   imageUrl: string;
   productSku: string;
+  stock: number;
 };
