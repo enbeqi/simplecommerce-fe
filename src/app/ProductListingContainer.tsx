@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { AdjustmentsHorizontalIcon, TagIcon } from "@heroicons/react/16/solid";
 import { Dropdown } from "@/components/Dropdown";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductData } from "@/lib/types/product";
@@ -32,7 +33,7 @@ export default function ProductListingContainer({
       <div className="flex flex-row flex-wrap justify-end gap-x-4 gap-y-2 mb-4">
         <Dropdown
           id="category"
-          labelText="Category:"
+          labelText="Category"
           options={[
             { value: "", label: "All Categories" },
             { value: "beauty", label: "Beauty" },
@@ -41,18 +42,20 @@ export default function ProductListingContainer({
             { value: "groceries", label: "Groceries" },
           ]}
           selectedValue={category}
+          labelIcon={<TagIcon className="size-5" />}
           className="sm:max-w-[240px]"
           onChange={updateSearchParams}
         />
         <Dropdown
           id="sort"
-          labelText="Sort:"
+          labelText="Sort By"
           options={[
             { value: "", label: "Most Related" },
             { value: "price_asc", label: "Price: Low to High" },
             { value: "price_desc", label: "Price: High to Low" },
           ]}
           selectedValue={sort}
+          labelIcon={<AdjustmentsHorizontalIcon className="size-5" />}
           className="sm:max-w-[240px]"
           onChange={updateSearchParams}
         />
