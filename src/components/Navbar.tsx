@@ -2,10 +2,11 @@
 
 import { useRouter } from "next/navigation";
 import { ShoppingBagIcon, ShoppingCartIcon } from "@heroicons/react/24/outline";
+import { useCartStore } from "@/lib/store/cart";
 
 export function Navbar() {
   const router = useRouter();
-  const cartCount = 0; // TODO: Replace with actual cart count logic
+  const cartCount = useCartStore((state) => state.count);
 
   const handleRedirectToLanding = () => {
     router.push("/");

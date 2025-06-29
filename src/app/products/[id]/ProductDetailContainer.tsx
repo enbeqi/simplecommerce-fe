@@ -38,7 +38,7 @@ export default function ProductDetailContainer({
         </div>
         <div className="flex flex-col w-full max-w-[500px] gap-4 md:max-w-[66%]">
           <ProductSummary data={initialProductData} />
-          <ProductAddToCart productStock={stock} />
+          <ProductAddToCart product={initialProductData} />
         </div>
       </div>
     </div>
