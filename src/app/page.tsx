@@ -16,11 +16,15 @@ export default async function ProductListingPage({
 }: ProductListingPageProps) {
   const productListResponse = await getProductList(searchParams);
 
-  if (!productListResponse.data) {
-    return <ErrorView />;
+  const {
+    data: productListData,
+    code: responseCode,
+    message: responseMessage,
+  } = productListResponse;
+
+  if (!productListData) {
+    return <ErrorView code={responseCode} message={responseMessage} />;
   }
 
-  return (
-    <ProductListingContainer initialProductList={productListResponse.data} />
-  );
+  return <ProductListingContainer initialProductList={productListData} />;
 }

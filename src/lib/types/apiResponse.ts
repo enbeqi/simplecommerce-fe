@@ -19,4 +19,6 @@ type ErrorResponse = {
   message: string;
 };
 
+export type APIResponseCode = ErrorResponseCode | SuccessResponseCode;
+
 export type APIResponse<TData> = SuccessResponse<TData> | ErrorResponse;
